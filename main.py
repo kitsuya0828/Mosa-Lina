@@ -50,7 +50,7 @@ def handle_message(event):
     user_id = profile.user_id
     if event.message.text == 'レビュー':
         line_bot_api.reply_message(
-        event.reply_token, messages=[TextSendMessage(text="https://forms.gle/PBrsEzKBzo5raAij8")]
+        event.reply_token, messages=[TextSendMessage(text="<レビューサイトのURL>")]
         )
     else:    
         src_image_path = Path(SRC_IMAGE_PATH.format(user_id)).absolute()
