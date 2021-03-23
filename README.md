@@ -3,7 +3,7 @@ A LINE Bot which recognizes faces on the picture and blur any of them you like
 
 # DEMO
 
-Below are the website overview
+Below are the LINE Bot overview
 
 <table>
 <tr>
